@@ -1,0 +1,24 @@
+<head>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+</head>
+
+<div id="main-container">
+
+<h1>Notes!</h1>
+
+<div id="Newnote">
+<form action="/notes/add">
+<input type="text" name="input"></input>
+<button type="submit" id="submit">SAVE</button><br>
+</div>
+
+
+<div id="notes">
+<% @notes.each do |note|%>
+<div class="note"><%=note.body%><a href="/notes/delete/<%=note.id%>">X</a></div>
+
+</div>
+
+<%end%><br>
+
+</div>

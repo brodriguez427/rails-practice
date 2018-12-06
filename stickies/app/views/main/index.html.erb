@@ -1,0 +1,18 @@
+<h1>Notes!</h1>
+
+<% @notes.each do |note|%>
+
+<div>
+<%=note.body%>
+
+</div>
+
+<%end%><br>
+
+<form action="/main/add">
+<input type="text" name="input"></input>
+<button type="submit">SAVE</button><br>
+
+
+
+

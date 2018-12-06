@@ -1,0 +1,42 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.main-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #d6d5d2;
+    text-align: center;
+    font-family: 'Rozha One', serif;
+    font-size: 20px;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+textarea {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.4em;
+    width: 90%;
+    min-height: 200px;
+    outline: none;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAKlBMVEX////c3Nz6+vre3t7i4uLZ2dnh4eHs7Ozl5eXv7+/8/PzW1tby8vLp6emOiSjMAAABT0lEQVR4nO3c7WqDMBQGYNfuq267/9sdY9bK2I+AHF48Pg8ValAJh9DUJCfTc3cTAPulf8zLTZfu0k0IoIWX7tIBBmhh7m66dpduQgAt3Lqb3rpLNyGAFt67M7sGwID05Fe5dIABOIR0d1UuHWCAFtKLQcpZbQLAgK/ups/u0k0IoIWn7tIBBuAQ0t1VuXSAAVpID4WVO0E2AgD7vXYndw2AAenBvnLpAANwCOnUsnLpAAO0MF/m+X78fJbjb9F62fx7cnkUba7+r2i5a/06ctf6/MdD7vVaqrCt6uaKbb2W0xOMlwKwX3oxSDk7JQMwID35Ve4Eu7cAsN9Hd+kAA7SQ/utfzuwaAAPSicjl5K4BMCC9lL5cOsAAHEK6uyqXDjBAC+mhsHInGC8FYL9bd3LXABiQXjpY7gRvwADsd+0uHWAADiG99Ui5dIABOIJvug/qPqQQI/8AAAAASUVORK5CYII=");
+}
+
+button {
+    width: 20%;
+    padding: 15px;
+    margin: 5px 5px;
+    span{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: lighter;
+        }
+}
+
+
+
+
